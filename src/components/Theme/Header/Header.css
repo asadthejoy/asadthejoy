@@ -1,0 +1,50 @@
+/* ========== My Page Logo ========== ~~~~~~BEGIN*/
+/*Logo Formating*/
+.App-logo {
+    background-color:antiquewhite;
+    border-radius: 10vmin;
+    position: fixed;
+    top: 1vmin;
+    left: 1vmin;
+    height: 10vmin;
+  }
+  @keyframes App-logo {
+    0%{background-color: ivory;}
+    5%{background-color: fuchsia;}
+    10%{background-color: dodgerblue;}
+    15%{background-color: hotpink;}
+    20%{background-color: lime;}
+    25%{background-color: tomato;}
+    30%{background-color: lightcyan;}
+    35%{background-color: purple;}
+    40%{background-color: deepskyblue;}
+    45%{background-color: yellow;}
+    50%{background-color: navy;}
+    55%{background-color: coral;}
+    60%{background-color: cornsilk;}
+    65%{background-color: indigo;}
+    70%{background-color: azure;}
+    75%{background-color: orchid;}
+    80%{background-color: deeppink;} 
+    85%{background-color: lawngreen;}
+    90%{background-color: maroon;}
+    95%{background-color: aqua;}   
+    100%{background-color: ivory;}
+  }
+
+  /*Logo Transition/Transformation*/
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }    
+  }
+  /*Logo Loop*/
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 7s linear, App-logo 100s infinite;
+    }    
+  }
+  /* ========== My Page Logo ========== ~~~~~~ ENG*/

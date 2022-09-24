@@ -1,0 +1,35 @@
+.SocialAccount {
+  display: inline;
+  position: fixed;
+  top: 1vmin;
+  right: 1vmin;
+}
+.SocialAccount a {
+  padding: 1vmin;
+}
+.SocialAccount a img {
+  width: 5vmin;
+}
+
+@media screen and (max-width:1280px) {
+  .SocialAccount a img{
+    width: 7vmin;    
+  }
+}
+@media screen and (max-width:1024px) {
+  .SocialAccount a img{
+    width: 10vmin;    
+  }
+}
+@media screen and (max-width:768px) {
+  .SocialAccount {
+    width: 60vmin;
+  }
+  .SocialAccount a {
+    display: flex;
+    float: right;
+  }
+  .SocialAccount a img{
+    width: 13vmin;
+  }
+}
